@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing to <GifExpertApp/> should be the same component 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <button>
+    Add category
+  </button>
+  <ol />
+</Fragment>
+`;
+
+exports[`Testing to <GifExpertApp/> should show a list of categories 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <button>
+    Add category
+  </button>
+  <ol>
+    <GifGrid
+      category="One Piece"
+      key="One Piece"
+    />
+    <GifGrid
+      category="Kimetsu no Yaiba"
+      key="Kimetsu no Yaiba"
+    />
+  </ol>
+</Fragment>
+`;
