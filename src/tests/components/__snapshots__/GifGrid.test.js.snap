@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing to <GifGrid/> should be the same component 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Demon Slayer
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing to <GifGrid/> should show items when load images 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Demon Slayer
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="1f23yj2"
+      key="1f23yj2"
+      title="Somethings"
+      url="https://somethings.png"
+    />
+    <GifGridItem
+      id="758dg5sa"
+      key="758dg5sa"
+      title="Anymore"
+      url="https://anymore.png"
+    />
+  </div>
+</Fragment>
+`;
